@@ -13,6 +13,18 @@ body{
     max-width: 120rem;
     margin: 0 auto;
 }
+h1 {
+font-size: 3.8rem;
+}
+h2{
+font-size: 3.4rem;
+}
+h3{
+font-size: 3rem;
+}
+h4{
+font-size: 2.6rem;
+}
 /*header*/
 .site-header.inicio{
 background-image: url(../img/header.jpg);
@@ -21,13 +33,24 @@ background-size: cover;
 height: 100vh;
 min-height:60rem ;
 }
+.contenido-header{
+ height: 100%;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+}
+.contenido-header h1{
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 2rem;
+
+}
 .barra{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 3rem;
-
-    ;
 }
 
 /*navegacion*/
